@@ -1,7 +1,7 @@
 export interface IUser {
   fullName: string;
   description: string;
-  gender: 'male' | 'female';
+  gender: string;
   email: string;
   tags: string[];
   emailActive: boolean;

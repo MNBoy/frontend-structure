@@ -29,8 +29,8 @@ export const AuthForm: FC<IProps> = ({ type }) => {
           <Template.Input
             control={control}
             errors={errors}
-            name='fullName'
             label='Full Name'
+            name='fullName'
           />
         </>
       )}
@@ -43,8 +43,8 @@ export const AuthForm: FC<IProps> = ({ type }) => {
       <Template.Input
         control={control}
         errors={errors}
-        name='password'
         label='Password'
+        name='password'
         type={isVisible ? 'text' : 'password'}
         endContent={
           <button className='focus:outline-none' onClick={toggleVisibility}>

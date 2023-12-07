@@ -2,7 +2,10 @@ import { Template } from '@/components/template';
 
 export const UserSkeleton = () => {
   return (
-    <div className='max-w-[150px] w-full flex items-center gap-3'>
+    <div
+      className='max-w-[150px] w-full flex items-center gap-3'
+      data-testid='user-skeleton'
+    >
       <div>
         <Template.Skeleton className='flex rounded-full w-12 h-12' />
       </div>

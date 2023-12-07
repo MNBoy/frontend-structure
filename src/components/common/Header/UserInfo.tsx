@@ -21,7 +21,7 @@ export const UserInfo: FC<IProps> = ({ user }) => {
   return (
     <div className='flex items-center'>
       <Template.Dropdown placement='bottom-start'>
-        <DropdownTrigger>
+        <DropdownTrigger data-testid='dropdownTrigger'>
           <User
             as='button'
             avatarProps={{

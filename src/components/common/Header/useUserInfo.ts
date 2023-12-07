@@ -6,10 +6,6 @@ import { Key } from 'react';
 
 const items = [
   {
-    label: 'Profile',
-    key: 'profile',
-  },
-  {
     label: 'Logout',
     key: 'logout',
   },
@@ -27,10 +23,6 @@ export const useUserInfo = () => {
 
   const onAction = (key: Key) => {
     switch (key) {
-      case 'profile':
-        router.push(PATHS.PROFILE);
-        break;
-
       case 'logout':
         removeCredentials();
         router.push(PATHS.HOME);
