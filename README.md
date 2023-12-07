@@ -6,3 +6,15 @@
 ![GitHub stars](https://img.shields.io/github/stars/MNBoy/frontend-structure?style=social)
 
 A comprehensive Next.js application with React Query, Zustand, Tailwind CSS, TypeScript, and Next UI.
+
+## Scripts
+
+- **dev**: Run the development server.
+  
+  ```bash
+  pnpm dev
+
+- **test**: Run tests.
+  
+  ```bash
+  pnpm test
